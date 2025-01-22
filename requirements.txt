@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+beautifulsoup4
+openai
+pandas
+httpx
+pytest
