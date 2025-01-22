@@ -10,3 +10,6 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 # Дополнительные настройки
 OUTPUT_DIR = "output"  # Путь для сохранения выходных файлов
 LOG_LEVEL = "INFO"  # Уровень логирования (например, INFO, DEBUG)
+
+PROXY_ADDRESS=''
+PROXY_PORT=3128
