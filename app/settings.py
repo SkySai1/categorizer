@@ -1,5 +1,5 @@
 # Настройки приложения
-API_KEY = "your_openai_api_key_here"
+API_KEY = "org-M7Y1vaSgmrFCvGUXg084YXNu"
 PROMPT_TEMPLATE = (
     "На основании следующего текста выберите категорию из списка: {categories}.\n"
     "Текст:\n{content}"

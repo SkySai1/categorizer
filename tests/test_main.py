@@ -13,10 +13,12 @@ def test_main(mock_classify, mock_save, mock_read, mock_fetch, tmp_path):
 
     output_file = tmp_path / "result.csv"
 
+    mock_api_key = "org-M7Y1vaSgmrFCvGUXg084YXNu"  # Используем реальное значение для соответствия
     with patch("app.settings.OUTPUT_DIR", str(tmp_path)):
-        main(["main.py", "test_urls.txt", "test_categories.txt"])
+        with patch("app.settings.API_KEY", mock_api_key):
+            main(["main.py", "test_urls.txt", "test_categories.txt"])
 
     mock_read.assert_called_once()
     mock_fetch.assert_called_once_with("https://example.com")
-    mock_classify.assert_called_once_with("Example Title", ["Category A", "Category B"], "your_openai_api_key_here")
+    mock_classify.assert_called_once_with("Example Title", ["Category A", "Category B"], mock_api_key)
     mock_save.assert_called_once()
