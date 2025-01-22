@@ -28,5 +28,13 @@
             "app/services/file_handler.py",
             "app/services/categorizer.py"
         ]
+    },
+    {
+        "timestamp": 1737548263,
+        "description": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u044b \u0444\u0430\u0439\u043b\u044b `__init__.py` \u0434\u043b\u044f \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044f \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u043e\u0439 \u0438\u043d\u0438\u0446\u0438\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438 \u043f\u0430\u043a\u0435\u0442\u043e\u0432:\n1. `app/__init__.py` \u2014 \u0441\u0441\u044b\u043b\u043a\u0438 \u043d\u0430 \u043c\u043e\u0434\u0443\u043b\u0438 `main` \u0438 `settings`.\n2. `app/services/__init__.py` \u2014 \u0441\u0441\u044b\u043b\u043a\u0438 \u043d\u0430 \u043c\u043e\u0434\u0443\u043b\u0438 `url_handler`, `file_handler`, `categorizer`, `text_extractor`.",
+        "affected_files": [
+            "app/__init__.py",
+            "app/services/__init__.py"
+        ]
     }
 ]
