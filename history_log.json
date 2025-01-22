@@ -1,0 +1,23 @@
+[
+    {
+        "timestamp": 1737547805,
+        "description": "\u0421\u043e\u0437\u0434\u0430\u043d\u0430 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u043f\u0440\u043e\u0435\u043a\u0442\u0430, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u0430\u043f\u043a\u0438 \u0438 \u0444\u0430\u0439\u043b\u044b \u0434\u043b\u044f \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u0430. \u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u043e \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0430 \u0438 README.md.",
+        "affected_files": [
+            "README.md",
+            "app/__init__.py",
+            "app/main.py",
+            "app/settings.py",
+            "app/services/__init__.py",
+            "app/services/url_handler.py",
+            "app/services/text_extractor.py",
+            "app/services/categorizer.py",
+            "app/services/file_handler.py",
+            "tests/__init__.py",
+            "tests/test_url_handler.py",
+            "tests/test_categorizer.py",
+            "tests/test_file_handler.py",
+            "requirements.txt",
+            "output/result.csv"
+        ]
+    }
+]
