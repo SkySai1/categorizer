@@ -14,7 +14,7 @@ def test_main(mock_classify, mock_save, mock_read, mock_fetch, tmp_path):
     output_file = tmp_path / "result.csv"
 
     with patch("app.settings.OUTPUT_DIR", str(tmp_path)):
-        main()
+        main(["main.py", "test_urls.txt", "test_categories.txt"])
 
     mock_read.assert_called_once()
     mock_fetch.assert_called_once_with("https://example.com")
